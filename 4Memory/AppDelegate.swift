@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  4Memory
 //
-//  Created by A dem Gunduz on 17-09-18.
+//  Created by Adem Gunduz on 17-09-18.
 //  Copyright © 2018 Adem Gunduz. All rights reserved.
 //
 
@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true
     }

@@ -2,7 +2,7 @@
 //  GameViewController.swift
 //  4Memory
 //
-//  Created by A dem Gunduz on 17-09-18.
+//  Created by Adem Gunduz on 17-09-18.
 //  Copyright © 2018 Adem Gunduz. All rights reserved.
 //
 

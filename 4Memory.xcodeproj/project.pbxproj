@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		520EF0FE216D771B00AD9DA3 /* GameOverScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 520EF0FD216D771B00AD9DA3 /* GameOverScene.sks */; };
+		520EF102216D7F1400AD9DA3 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EF101216D7F1400AD9DA3 /* GameOverScene.swift */; };
 		528D1151214F283300150E8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D1150214F283300150E8A /* AppDelegate.swift */; };
 		528D1153214F283300150E8A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 528D1152214F283300150E8A /* GameScene.sks */; };
 		528D1155214F283300150E8A /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 528D1154214F283300150E8A /* Actions.sks */; };
@@ -15,9 +17,15 @@
 		528D115C214F283300150E8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 528D115A214F283300150E8A /* Main.storyboard */; };
 		528D115E214F283D00150E8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 528D115D214F283D00150E8A /* Assets.xcassets */; };
 		528D1161214F283D00150E8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 528D115F214F283D00150E8A /* LaunchScreen.storyboard */; };
+		52A65BFC217AAAB6003F757C /* Level1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A65BFB217AAAB6003F757C /* Level1.swift */; };
+		52A65BFE217AAB8C003F757C /* Level1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 52A65BFD217AAB8C003F757C /* Level1.sks */; };
+		52B3B537216C20A6005DA174 /* AddNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B3B536216C20A6005DA174 /* AddNode.swift */; };
+		52B88561217179F400C3C296 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B88560217179F400C3C296 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		520EF0FD216D771B00AD9DA3 /* GameOverScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameOverScene.sks; sourceTree = "<group>"; };
+		520EF101216D7F1400AD9DA3 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 		528D114D214F283200150E8A /* 4Memory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 4Memory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		528D1150214F283300150E8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		528D1152214F283300150E8A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -28,6 +36,10 @@
 		528D115D214F283D00150E8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		528D1160214F283D00150E8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		528D1162214F283D00150E8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52A65BFB217AAAB6003F757C /* Level1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level1.swift; sourceTree = "<group>"; };
+		52A65BFD217AAB8C003F757C /* Level1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level1.sks; sourceTree = "<group>"; };
+		52B3B536216C20A6005DA174 /* AddNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNode.swift; sourceTree = "<group>"; };
+		52B88560217179F400C3C296 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +74,14 @@
 			children = (
 				528D1150214F283300150E8A /* AppDelegate.swift */,
 				528D1152214F283300150E8A /* GameScene.sks */,
+				520EF0FD216D771B00AD9DA3 /* GameOverScene.sks */,
 				528D1154214F283300150E8A /* Actions.sks */,
+				52A65BFD217AAB8C003F757C /* Level1.sks */,
+				520EF101216D7F1400AD9DA3 /* GameOverScene.swift */,
+				52A65BFB217AAAB6003F757C /* Level1.swift */,
 				528D1156214F283300150E8A /* GameScene.swift */,
+				52B3B536216C20A6005DA174 /* AddNode.swift */,
+				52B88560217179F400C3C296 /* Color.swift */,
 				528D1158214F283300150E8A /* GameViewController.swift */,
 				528D115A214F283300150E8A /* Main.storyboard */,
 				528D115D214F283D00150E8A /* Assets.xcassets */,
@@ -105,6 +123,7 @@
 				TargetAttributes = {
 					528D114C214F283200150E8A = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -135,7 +154,9 @@
 				528D1153214F283300150E8A /* GameScene.sks in Resources */,
 				528D115E214F283D00150E8A /* Assets.xcassets in Resources */,
 				528D1161214F283D00150E8A /* LaunchScreen.storyboard in Resources */,
+				520EF0FE216D771B00AD9DA3 /* GameOverScene.sks in Resources */,
 				528D1155214F283300150E8A /* Actions.sks in Resources */,
+				52A65BFE217AAB8C003F757C /* Level1.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,9 +167,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52A65BFC217AAAB6003F757C /* Level1.swift in Sources */,
+				520EF102216D7F1400AD9DA3 /* GameOverScene.swift in Sources */,
 				528D1157214F283300150E8A /* GameScene.swift in Sources */,
 				528D1159214F283300150E8A /* GameViewController.swift in Sources */,
 				528D1151214F283300150E8A /* AppDelegate.swift in Sources */,
+				52B3B537216C20A6005DA174 /* AddNode.swift in Sources */,
+				52B88561217179F400C3C296 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,7 +326,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "w.-Memory";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -319,7 +344,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "w.-Memory";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
